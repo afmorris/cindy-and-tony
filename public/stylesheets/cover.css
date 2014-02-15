@@ -159,3 +159,11 @@ body {
     width: 700px;
   }
 }
+
+.mastfoot a {
+    color: #888;
+}
+
+    .mastfoot a:hover {
+        color: #BBB;
+    }
