@@ -41,3 +41,9 @@ html
 							a(href="https://www.github.com/afmorris/cindy-and-tony", target="_blank") source
 		script(src="/jquery/dist/jquery.min.js")
 		script(src="/bootstrap/dist/js/bootstrap.min.js")
+		script.
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+				var msViewportStyle = document.createElement('style')
+				msViewportStyle.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'))
+				document.querySelector('head').appendChild(msViewportStyle)
+			}
