@@ -212,6 +212,7 @@
     <Content Include="bower_components\sizzle\test\libs\qunit\qunit.css" />
     <Content Include="package.json" />
     <Content Include="public\images\bg-wedding.png" />
+    <Content Include="public\stylesheets\wedding.css" />
     <Content Include="public\stylesheets\wedding-cover.css" />
     <Content Include="public\stylesheets\cover.css" />
     <Content Include="README.md" />
@@ -220,12 +221,13 @@
     <Compile Include="controllers\wedding.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\user.js" />
+    <Content Include="views\wedding.jade" />
     <Content Include="views\wedding-cover.jade" />
     <Content Include="views\cover.jade" />
     <Content Include="views\pages\index.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="public\stylesheets\site.css" />
-    <Content Include="views\wedding\guests.jade" />
+    <Content Include="views\wedding\guest-information.jade" />
     <Content Include="views\wedding\index.jade" />
     <Content Include="views\wedding\reception.jade" />
     <Content Include="views\wedding\registries.jade" />

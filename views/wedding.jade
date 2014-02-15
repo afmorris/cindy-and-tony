@@ -1,0 +1,43 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="description", content="Cindy and Tony's website")
+		meta(name="author", content="@tonytalkstech")
+		title= title + " | Our Wedding"
+		link(rel="stylesheet", href="/bootstrap/dist/css/bootstrap.min.css")
+		link(rel='stylesheet', href='/stylesheets/wedding.css')
+		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Gabriela", type="text/css")
+	body
+		div.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+			div.container
+				div.navbar-header
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href="/wedding") Our Wedding
+				div.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li(class=(title=== 'The Ceremony' ? 'active' : ''))
+							a(href="/wedding/ceremony") Ceremony
+						li(class=(title=== 'The Reception' ? 'active' : ''))
+							a(href="/wedding/reception") Reception
+						li(class=(title=== 'Our Registries' ? 'active' : ''))
+							a(href="/wedding/registries") Registries
+						li(class=(title=== 'Guest Information' ? 'active' : ''))
+							a(href="/wedding/guest-information") Guest Information
+		block content
+		div#footer
+			div.container
+				p.text-muted
+					ul.list-inline
+						li
+							a(href="https://www.twitter.com/tonytalkstech", target="_blank") @tonytalkstech
+						li
+							a(href="https://www.github.com/afmorris/cindy-and-tony", target="_blank") source
+		script(src="/jquery/dist/jquery.min.js")
+		script(src="/bootstrap/dist/js/bootstrap.min.js")

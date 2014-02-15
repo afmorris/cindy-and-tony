@@ -4,18 +4,18 @@
     });
 
     app.get('/wedding/ceremony', function(req, res) {
-        res.render('wedding/ceremony', { title : 'Ceremony'});
+        res.render('wedding/ceremony', { title : 'The Ceremony'});
     });
 
     app.get('/wedding/reception', function(req, res) {
-        res.render('wedding/reception', { title : 'Reception'});
+        res.render('wedding/reception', { title : 'The Reception'});
     });
 
     app.get('/wedding/registries', function(req, res) {
-        res.render('wedding/registries', { title : 'Registries'});
+        res.render('wedding/registries', { title : 'Our Registries'});
     });
 
-    app.get('/wedding/guests', function(req, res) {
-        res.render('wedding/guests', { title : 'Guest Information'});
+    app.get('/wedding/guest-information', function(req, res) {
+        res.render('wedding/guest-information', { title : 'Guest Information'});
     });
 }

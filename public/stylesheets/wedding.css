@@ -1,0 +1,90 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Gabriela';
+    background-color: #666;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #333;
+    background-image: url('/images/bg-wedding.png');
+}
+
+    #footer a {
+        color: #888;
+    }
+
+        #footer a:hover {
+            color: #BBB;
+        }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    background-image: url('/images/bg-wedding.png');
+    border-bottom: 1px solid #FFD6D1;
+}
+
+    .navbar-inverse .navbar-brand {
+        color: #FFD6D1;
+    }
+
+        .navbar-inverse .navbar-brand:hover {
+            color: #FFD6D1;
+        }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #CCC;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover {
+            color: #FFD6D1;
+        }
+
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #FFD6D1;
+        background-color: rgba(8,8,8,0.4);
+    }
+
+h1,h2,h3,h4,h5,h6 {
+    color: #FFD6D1;
+}
+
+.page-header {
+    border-bottom: 1px solid #FFD6D1;
+}
