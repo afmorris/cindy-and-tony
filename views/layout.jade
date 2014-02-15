@@ -1,7 +1,47 @@
 doctype html
 html
   head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Cindy and Tony's website")
+    meta(name="author", content="@tonytalkstech")
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="/bootstrap/dist/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/stylesheets/site.css')
   body
+    div.navbar.navbar-default.navbar-fixed-top(role="navigation")
+        div.container
+            div.navbar-header
+                button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href="/") Cindy and Tony
+            div.collapse.navbar-collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="/") Home
+                    li.dropdown
+                        a.dropdown-toggle(href="#", data-toggle="dropdown") Wedding <b class="caret"></b>
+                        ul.dropdown-menu
+                            li
+                                a(href="/wedding/ceremony") Ceremony
+                            li
+                                a(href="/wedding/reception") Reception
+                            li
+                                a(href="/wedding/registries") Registries
+                            li
+                                a(href="/wedding/guests") Guest Information
     block content
+    div#footer
+        div.container
+            p.text-muted
+                ul.list-inline
+                    li
+                        a(href="https://www.twitter.com/tonytalkstech", target="_blank") @tonytalkstech
+                    li
+                        a(href="https://www.github.com/afmorris", target="_blank") github
+    script(src="/jquery/dist/jquery.min.js")
+    script(src="/bootstrap/dist/js/bootstrap.min.js")
