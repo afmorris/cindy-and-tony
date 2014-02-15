@@ -10,6 +10,7 @@ body {
     margin-bottom: 60px;
     font-family: 'Gabriela';
     background-color: #666;
+    color: #EEE;
 }
 
 #footer {
@@ -87,4 +88,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .page-header {
     border-bottom: 1px solid #FFD6D1;
+}
+
+strong {
+    color: #FFD6D1;
 }
