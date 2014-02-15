@@ -13,6 +13,19 @@ body {
     color: #EEE;
 }
 
+div#content a.bodyLink {
+    color: #FFD6D1;
+    border-bottom: 1px dashed #FFD6D1;
+}
+
+    div#content a:hover.bodyLink,
+    div#content a:active.bodyLink,
+    div#content a:visited.bodyLink {
+        color: #FFD6D1;
+        text-decoration: none;
+        border-bottom: 1px solid #FFD6D1;
+    }
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -25,6 +38,7 @@ body {
 
     #footer a {
         color: #888;
+        border-bottom: none;
     }
 
         #footer a:hover {
@@ -99,3 +113,7 @@ strong {
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}

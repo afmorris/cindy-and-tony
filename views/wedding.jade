@@ -47,3 +47,7 @@ html
 				msViewportStyle.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'))
 				document.querySelector('head').appendChild(msViewportStyle)
 			}
+		script.
+			$(document).ready(function(){
+				$('.carousel').carousel();
+			});

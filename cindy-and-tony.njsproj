@@ -212,6 +212,18 @@
     <Content Include="bower_components\sizzle\test\libs\qunit\qunit.css" />
     <Content Include="package.json" />
     <Content Include="public\images\bg-wedding.png" />
+    <Content Include="public\images\blair-carousel\b-1.jpg" />
+    <Content Include="public\images\blair-carousel\b-10.jpg" />
+    <Content Include="public\images\blair-carousel\b-11.jpg" />
+    <Content Include="public\images\blair-carousel\b-12.jpg" />
+    <Content Include="public\images\blair-carousel\b-2.jpg" />
+    <Content Include="public\images\blair-carousel\b-3.jpg" />
+    <Content Include="public\images\blair-carousel\b-4.jpg" />
+    <Content Include="public\images\blair-carousel\b-5.jpg" />
+    <Content Include="public\images\blair-carousel\b-6.jpg" />
+    <Content Include="public\images\blair-carousel\b-7.jpg" />
+    <Content Include="public\images\blair-carousel\b-8.jpg" />
+    <Content Include="public\images\blair-carousel\b-9.jpg" />
     <Content Include="public\stylesheets\wedding.css" />
     <Content Include="public\stylesheets\wedding-cover.css" />
     <Content Include="public\stylesheets\cover.css" />
@@ -278,6 +290,7 @@
     <Folder Include="controllers\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
+    <Folder Include="public\images\blair-carousel\" />
     <Folder Include="public\stylesheets" />
     <Folder Include="routes" />
     <Folder Include="views" />
