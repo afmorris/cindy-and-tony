@@ -135,7 +135,7 @@
     <Compile Include="bower_components\sizzle\test\unit\extending.js" />
     <Compile Include="bower_components\sizzle\test\unit\selector.js" />
     <Compile Include="bower_components\sizzle\test\unit\utilities.js" />
-    <Compile Include="views\wedding\ceremony.jade" />
+    <Compile Include="views\wedding\ceremony-and-reception.jade" />
     <Content Include="bower_components\bootstrap\.bower.json" />
     <Content Include="bower_components\bootstrap\bower.json" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css" />
@@ -241,7 +241,6 @@
     <Content Include="public\stylesheets\site.css" />
     <Content Include="views\wedding\guest-information.jade" />
     <Content Include="views\wedding\index.jade" />
-    <Content Include="views\wedding\reception.jade" />
     <Content Include="views\wedding\registries.jade" />
   </ItemGroup>
   <ItemGroup>

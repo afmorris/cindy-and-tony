@@ -3,12 +3,8 @@
         res.render('wedding/index', { title : 'Home'});
     });
 
-    app.get('/wedding/ceremony', function(req, res) {
-        res.render('wedding/ceremony', { title : 'The Ceremony'});
-    });
-
-    app.get('/wedding/reception', function(req, res) {
-        res.render('wedding/reception', { title : 'The Reception'});
+    app.get('/wedding/ceremony-and-reception', function(req, res) {
+        res.render('wedding/ceremony-and-reception', { title : 'The Ceremony & Reception'});
     });
 
     app.get('/wedding/registries', function(req, res) {
