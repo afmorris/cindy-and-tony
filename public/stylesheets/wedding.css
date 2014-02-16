@@ -13,14 +13,14 @@ body {
     color: #EEE;
 }
 
-div#content a.bodyLink {
+a {
     color: #FFD6D1;
     border-bottom: 1px dashed #FFD6D1;
 }
 
-    div#content a:hover.bodyLink,
-    div#content a:active.bodyLink,
-    div#content a:visited.bodyLink {
+    a:hover,
+    a:active,
+    a:visited {
         color: #FFD6D1;
         text-decoration: none;
         border-bottom: 1px solid #FFD6D1;
