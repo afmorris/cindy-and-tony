@@ -26,6 +26,14 @@ a {
         border-bottom: 1px solid #FFD6D1;
     }
 
+div.navbar a {
+    border-bottom: 0;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #FFD6D1;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
