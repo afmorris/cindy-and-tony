@@ -104,7 +104,7 @@ code {
         background-color: rgba(8,8,8,0.4);
     }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #FFD6D1;
 }
 
@@ -116,11 +116,30 @@ strong {
     color: #FFD6D1;
 }
 
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
+#footer li {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
 
 .carousel-inner > .item > img {
     margin: 0 auto;
